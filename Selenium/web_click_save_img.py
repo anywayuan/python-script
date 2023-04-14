@@ -77,5 +77,5 @@ for index, img in enumerate(images):
         else:
             print(f"Error downloading image {index}: {response.status_code}")
 
-# 注意：请根据需要在代码结束时关闭驱动程序，例如： driver.quit()
+# 关闭驱动程序
 driver.quit()
