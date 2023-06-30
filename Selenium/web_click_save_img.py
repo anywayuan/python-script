@@ -34,7 +34,7 @@ def find_element_by_css_selector(css_selector):
 
 
 # 点击搜索结果的第一个链接
-first_result = find_element_by_css_selector("#rso > div:nth-child(1) > div > div > div.Z26q7c.UK95Uc.jGGQ5e > div > a")
+first_result = find_element_by_css_selector("#rso > div:nth-child(1) > div > div > div:nth-child(1) > div > div > div.Z26q7c.UK95Uc.jGGQ5e > div > a")
 first_result.click()
 
 # 找到相册导航栏并点击
